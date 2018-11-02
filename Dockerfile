@@ -4,4 +4,4 @@ FROM node:10
 RUN apt update && \
     apt install -y chromium
 
-ENV CHROME_PATH=/usr/bin/google-chrome
+ENV CHROME_PATH=/usr/bin/chromium
